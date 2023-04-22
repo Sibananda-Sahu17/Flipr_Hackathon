@@ -12,8 +12,7 @@ const NotFound = () => {
 				<div className={styles.main}>
 					<h1>404s and heartbreaks</h1>
 					<p>
-						We couldn’t find the page you were looking for. Maybe our FAQ or
-						Community can help?
+						We couldn’t find the page you were looking for.
 					</p>
 					<span onClick={() => history.push("/home")}>Go Back Home</span>
 				</div>

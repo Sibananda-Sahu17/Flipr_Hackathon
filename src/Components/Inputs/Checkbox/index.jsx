@@ -1,6 +1,7 @@
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
 import styles from "./styles.module.scss";
+import React from 'react'
 
 const CheckboxInput = ({ label, ...rest }) => {
 	return (

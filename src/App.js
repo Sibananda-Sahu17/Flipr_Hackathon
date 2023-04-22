@@ -9,9 +9,9 @@ import Login from './Pages/Login'
 function App() {
   return (
     <div className="App">
-      {/* <Main /> */}
+      <Main />
       {/* <SignUp /> */}
-      <Login />
+      {/* <Login /> */}
       {/* <Home /> */}  
       {/* <Search /> */}
     </div>

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import Joi from "joi";
 import TextField from "../../Components/Inputs/TextField";
-import Checkbox from "../../components/Inputs/Checkbox";
+import Checkbox from "../../Components/Inputs/Checkbox";
 import Button from "../../Components/Button";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import AppleIcon from "@mui/icons-material/Apple";
@@ -53,7 +53,7 @@ const Login = () => {
 				>
 					<FacebookRoundedIcon /> continue with facebook
 				</button>
-				<button className={styles.contained_btn} style={{ background: "#000" }}>
+				<button className={styles.contained_btn} style={{ background: "#000", color: "white" }}>
 					<AppleIcon /> continue with apple
 				</button>
 				<button className={styles.outline_btn}>

@@ -1,11 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { login } from "../../redux/authSlice/apiCalls";
 import Joi from "joi";
-import TextField from "../../components/Inputs/TextField";
+import TextField from "../../Components/Inputs/TextField";
 import Checkbox from "../../components/Inputs/Checkbox";
-import Button from "../../components/Button";
+import Button from "../../Components/Button";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import AppleIcon from "@mui/icons-material/Apple";
 import GoogleIcon from "@mui/icons-material/Google";
@@ -15,8 +13,6 @@ import styles from "./styles.module.scss";
 const Login = () => {
 	const [data, setData] = useState({ email: "", password: "" });
 	const [errors, setErrors] = useState({});
-	const { isFetching } = useSelector((state) => state.auth);
-	const dispatch = useDispatch();
 
 	const handleInputState = (name, value) => {
 		setData({ ...data, [name]: value });
@@ -36,7 +32,7 @@ const Login = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		if (Object.keys(errors).length === 0) {
-			login(data, dispatch);
+			console.log(data);
 		} else {
 			console.log("please fill out properly");
 		}
@@ -101,7 +97,6 @@ const Login = () => {
 						<Button
 							type="submit"
 							label="LOG IN"
-							isFetching={isFetching}
 							style={{ color: "white", background: "#15883e", width: "20rem" }}
 						/>
 					</div>

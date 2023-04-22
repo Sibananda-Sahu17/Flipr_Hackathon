@@ -3,7 +3,7 @@ import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import storage from "../../../firebase";
 import { CircularProgress } from "@mui/material";
 import { toast } from "react-toastify";
-import Button from "../../Button";
+import Button from "../../Button/Button";
 import styles from "./styles.module.scss";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 

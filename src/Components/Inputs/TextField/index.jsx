@@ -26,7 +26,7 @@ const TextField = ({
 	};
     return(
         <div className={styles.container}>
-            <div className={styles.label}>{label}</div>
+            {/* <div className={styles.label}>{label}</div> */}
             <input 
                 {...rest}
                 onChange={handleChange}

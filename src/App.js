@@ -3,7 +3,7 @@ import './App.css';
 import Main from './Pages/Main';
 import SignUp from './Pages/SignUp'
 import Login from './Pages/Login'
-import Navbar from '../src/Components/Sidebar'
+import Navbar from '../src/Components/AudioPlayer'
 // import Home from './Pages/Home'
 // import Search from './Pages/Search'
 

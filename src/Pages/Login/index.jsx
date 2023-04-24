@@ -53,7 +53,7 @@ const Login = () => {
 				>
 					<FacebookRoundedIcon /> continue with facebook
 				</button>
-				<button className={styles.contained_btn} style={{ background: "#000" }}>
+				<button className={styles.contained_btn} style={{ background: "#000", color: "white" }}>
 					<AppleIcon /> continue with apple
 				</button>
 				<button className={styles.outline_btn}>

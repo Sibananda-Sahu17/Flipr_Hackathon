@@ -10,14 +10,14 @@
 	align-items: center;
 	padding: 0 2rem 0 26rem;
 	z-index: 99;
-
+	
 	.left {
 		display: flex;
-
+		
 		.icon {
 			margin-left: 2rem;
 			cursor: pointer;
-
+			
 			svg {
 				background-color: var(--light-black);
 				color: var(--white);
@@ -28,13 +28,14 @@
 			}
 		}
 	}
-
+	
 	.right {
 		.profile_menu {
 			display: flex;
 			align-items: center;
 			padding: 0.5rem;
-			color: var(--white);
+			color: white;
+			// color: var(--white);
 			border-radius: 2rem;
 			cursor: pointer;
 

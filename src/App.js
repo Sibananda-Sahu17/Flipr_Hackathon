@@ -3,7 +3,7 @@ import './App.css';
 import Main from './Pages/Main';
 import SignUp from './Pages/SignUp'
 import Login from './Pages/Login'
-import Navbar from '../src/Components/AudioPlayer'
+import Library from './Pages/PlayList'
 // import Home from './Pages/Home'
 // import Search from './Pages/Search'
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       {/* <Main /> */}
-      <Navbar/>
+      <Library/>
       {/* <SignUp /> */}
       {/* <Login /> */}
       {/* <Home /> */}  
